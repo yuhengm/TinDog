@@ -41,7 +41,7 @@ body {
 
 /* Title Section */
 
-h1 {
+.title-text {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -58,6 +58,7 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  z-index: -1;
 }
 
 /* Feature */
@@ -82,12 +83,12 @@ h1 {
   transition: 0.2s ease-out;
 }
 
-h3 {
+.feature-title {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 1.5rem;
 }
 
-p {
+.feature-description {
   color: #8f8f8f;
 }
 
@@ -104,7 +105,7 @@ p {
   padding: 7% 15%;
 }
 
-h2 {
+.testimonial-text {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 3rem;
 }
@@ -130,4 +131,11 @@ h2 {
 
 /* Pricing */
 
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
 
+.pricing-col {
+  padding: 3% 2%;
+}
