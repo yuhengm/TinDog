@@ -55,13 +55,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -213,22 +213,23 @@
 
     <section id="pricing">
       <div>
-        <h2>A Plan for Every Dog's Needs</h2>
+        <h2 class="pricing-title">A Plan for Every Dog's Needs</h2>
         <p>Simple and affordable price plans for your and your dog.</p>
       </div>
 
       <div class="row card-deck">
         <div class="col-lg-4 col-md-12 pricing-col">
           <div class="card">
-            <div class="card-header">
-              <h1>Chihuahua</h1>
-            </div>
+            <div class="card-header">Chihuahua</div>
             <div class="card-body">
-              <h2>Free</h2>
+              <h2 class="price">Free</h2>
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-outline-dark">
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-block button-pricing"
+              >
                 Sign Up
               </button>
             </div>
@@ -237,30 +238,37 @@
 
         <div class="col-lg-4 col-md-12 pricing-col">
           <div class="card">
-            <div class="card-header">
-              <h1>Labrador</h1>
-            </div>
+            <div class="card-header">Labrador</div>
             <div class="card-body">
+              <h2 class="price">$49 / mo</h2>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-dark">Sign up</button>
+              <button
+                type="button"
+                class="btn btn-dark btn-block button-pricing"
+              >
+                Sign up
+              </button>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-12 pricing-col">
           <div class="card">
-            <div class="card-header">
-              <h1>Mastiff</h1>
-            </div>
+            <div class="card-header">Mastiff</div>
             <div class="card-body">
-              <h2>$99 / mo</h2>
+              <h2 class="price">$99 / mo</h2>
               <p>Pirority Listing</p>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-dark">Sign Up</button>
+              <button
+                type="button"
+                class="btn btn-dark btn-block button-pricing"
+              >
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
@@ -270,15 +278,28 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button">
+        <i class="fa fa-apple" aria-hidden="true"></i> Download
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-light btn-lg download-button"
+      >
+        <i class="fa fa-android" aria-hidden="true"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+      <p class="copyright">© Copyright 2021 TinDog</p>
+      <div">
+        <i class="fa fa-facebook-square contact-icon" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square contact-icon" aria-hidden="true"></i>
+        <i class="fa fa-instagram contact-icon" aria-hidden="true"></i>
+        <i class="fa fa-envelope-square contact-icon" aria-hidden="true"></i>
+      </div>
     </footer>
 
     <!-- Bootstrap Scripts -->
